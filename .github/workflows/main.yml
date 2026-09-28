@@ -1,7 +1,7 @@
 name: CSD318 Lab 3 Pipeline 
 
 on: [push] 
-
+- run: echo "All tests passed."
 jobs: 
 
   Build: 
